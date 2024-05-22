@@ -1,0 +1,110 @@
+who
+whoami
+tty
+who
+man 7 sched
+ls
+cat > numbers.txt
+cat numbers.txt
+cat -n numbers.txt
+head numbers.txt 
+head -7 numbers.txt 
+tail numbers.txt 
+tail -13 numbers.txt 
+cat numbers.txt 
+sort numbers.txt 
+sort -n numbers.txt 
+uniq numbers.txt 
+cat numbers.txt 
+sort numbers.txt 
+sort numbers.txt > sorted.txt
+cat sorted.txt 
+uniq sorted.txt 
+bc
+cat > input.txt
+cat input.txt 
+bc < input.txt 
+ls -W
+ls -W 2> error.txt
+cat error.txt 
+bc < input.txt 1> output.txt 2> error.txt
+cat input.txt 
+cat output.txt 
+cat error.txt 
+cat > input.txt 
+bc < input.txt 1> output.txt 2> error.txt
+cat input.txt 
+cat output.txt 
+cat error.txt 
+sort numbers.txt | uniq 
+echo "Hello KDAC"
+echo "Hello KDAC" | tr " " "@"
+echo "Hello KDAC" | tr "a-z" "A-Z"
+echo "Hello KDAC" | tr "A-Z" "a-z"
+echo "DAC DESD DMC DBDA DITISS"
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f1
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f2
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f3
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f1,2
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f1,3
+echo "DAC DESD DMC DBDA DITISS" | cut -d " " -f4,5
+ls
+find . -name kdac.txt
+find ~ -name kdac.txt
+find ~ -name error.txt
+ls
+find . -type f
+find . -type d
+cat > taste.txt
+cat taste.txt 
+grep "cake" taste.txt 
+grep "is" taste.txt 
+grep -w "is" taste.txt 
+grep -c "is" taste.txt 
+grep -n "is" taste.txt 
+grep -v "is" taste.txt 
+grep "Is" taste.txt 
+grep -i "Is" taste.txt 
+grep "is" taste.txt 
+grep "^is" taste.txt 
+grep "is$" taste.txt 
+grep "^is$" taste.txt 
+cat > select.txt
+cat select.txt
+grep "dc" select.txt 
+grep "dac" select.txt 
+grep "dec" select.txt 
+grep "doc" select.txt 
+grep "d[aeo]c" select.txt 
+grep "[d]c" select.txt 
+grep "d[^aeo]c" select.txt 
+grep "d.c" select.txt 
+grep "d*c" select.txt 
+grep "d\*c" select.txt 
+grep "d[*]c" select.txt 
+grep -F "d*c" select.txt 
+fgrep "d*c" select.txt 
+cat > repeat.txt
+grep "dc" repeat.txt 
+grep "dac" repeat.txt 
+grep "da?c" repeat.txt 
+grep -E "da?c" repeat.txt 
+egrep "da?c" repeat.txt 
+egrep "da+c" repeat.txt 
+egrep "da{2}c" repeat.txt 
+egrep "da{5}c" repeat.txt 
+egrep "da{2,5}c" repeat.txt 
+egrep "da{2,}c" repeat.txt 
+egrep "da{,5}c" repeat.txt 
+egrep "d[a]c" repeat.txt 
+egrep "d[aa]c" repeat.txt 
+egrep "d(aa)c" repeat.txt 
+egrep "d(aa){2}c" repeat.txt 
+egrep "d(aa){3}c" repeat.txt 
+grep "a[a-z]c" select.txt 
+grep "d[a-z]c" select.txt 
+grep "d[0-9]c" select.txt 
+man uniq
+uniq -c sorted.txt 
+uniq -d sorted.txt 
+history > ~/share/classwork_history.txt

@@ -1,0 +1,97 @@
+date
+echo $SHELL
+cal
+cal -y
+cal -y 2016
+man cal
+man date
+man man
+man date
+man 2 fork
+man 3 printf
+pwd
+mkdir kdac
+ls
+pwd
+cd kdac
+pwd
+mkdir one two three four
+ls
+mkdir -p dir1/dir2/dir3/dir4
+ls
+ls dir1
+ls dir1/dir2
+ls dir1/dir2/dir3/
+ls dir1/dir2/dir3/dir4/
+ls -R
+pwd
+cd ~
+pwd
+cd -
+pwd
+cd .
+pwd
+cd ..
+pwd
+cd kdac
+ls
+rmdir four
+ls
+touch file.txt
+ls
+touch file1.txt file2.txt file3.txt
+ls
+cat > dac.txt
+ls
+cat dac.txt 
+cat > dac.txt
+cat dac.txt 
+cat >> dac.txt
+cat dac.txt 
+ls
+rm file3.txt 
+ls
+cp dac.txt kdac.txt
+ls
+cat dac.txt 
+cat kdac.txt 
+cp dac.txt three
+ls
+ls three
+cp three copy
+cp -r three copy
+ls
+ls three
+ls copy
+ls
+mv dac.txt move.txt
+ls
+mv file.txt three
+ls 
+ls three
+mv copy move
+ls
+ls move
+rmdir move
+rm -r move
+ls
+ls three
+ls /home/sunbeam/
+ls ~
+ls -i
+ls -a
+ls -A
+touch .hidden.txt
+ls
+ls -A
+ls -a
+ls -l
+ls -l file1.txt 
+chmod +x file1.txt 
+ls -l file1.txt 
+chmod g-x file1.txt 
+ls -l file1.txt 
+chmod 664 file1.txt 
+ls -l file1.txt 
+chmod 744 file1.txt 
+ls -l file1.txt 
